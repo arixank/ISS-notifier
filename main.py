@@ -8,8 +8,8 @@ from keep_alive import keep_alive
 # s = sched.scheduler(time.time, time.sleep)
 
 # user credentials
-MAIL = "pickle_bot@yahoo.com"
-PASSCODE = "yawfslldkolrgaca"
+MAIL = "your_id@yahoo.com"
+PASSCODE = "your-password"
 
 MY_LAT = 12.971599
 MY_LNG = 77.594566
@@ -71,7 +71,7 @@ def mailer():
             subject = 'ISS is nearby'
             html = "<h1>ISS is above head</h1>"
             body = f"Peep out the night sky,<br>ISS Location:{iss_location}"
-            server.send(to="arixank@gmail.com",
+            server.send(to="where_to_send@gmail.com",
                         subject=subject,
                         contents=[html, body])
             # s.enter(delay=60, priority=1, action=mailer)
