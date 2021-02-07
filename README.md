@@ -5,8 +5,8 @@ This is a simple ISS notifier that notifies you via mail when iss is above your 
 
 # Repl.it Screen shot
 
- ![scr](Screenshot (1426).png)
+ <img src="Screenshot (1426).png"/>
 
 # Uptime Robot Screen shot
 
-![src](Screenshot (1427).png)
+<img src="Screenshot (1427).png" />
